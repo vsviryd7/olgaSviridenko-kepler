@@ -4,7 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Olga_Sviridenko_Portfolio</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
 	<!-- PAGE ABOUT navigate bar-->
@@ -21,7 +30,7 @@
 		</nav>
 	 </header>
 	<!-- Section BigPhoto Avatar-->
-	<h1>Olga Sviridenko</h1>
+	<h1 class="title title_fz36">Olga Sviridenko</h1>
 	<section class="promo">
 		<div class="container">
 			<h2 class="title title_fz48 promo_title">Hello!</h2>
@@ -35,24 +44,69 @@
 	</section>
 	<!-- Section ABOUT Me (add photo + icons)-->
 	<section id="about" class="about">
-			<div class="container">
-			<h2>About</h2>	
-			<ul>
-				<li>My Aducation</li>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nam distinctio quo doloremque, officiis autem deserunt fugiat, consequatur dolores dignissimos expedita placeat praesentium! In nesciunt odit corrupti debitis quae reiciendis.</p>
-				<li>Front-End Developer</li>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nam distinctio quo doloremque, officiis autem deserunt fugiat, consequatur dolores dignissimos expedita placeat praesentium! In nesciunt odit corrupti debitis quae reiciendis.</p>
-				<li>Back-End Developer</li>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nam distinctio quo doloremque, officiis autem deserunt fugiat, consequatur dolores dignissimos expedita placeat praesentium! In nesciunt odit corrupti debitis quae reiciendis.</p>
-				<li>Engineering</li>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nam distinctio quo doloremque, officiis autem deserunt fugiat, consequatur dolores dignissimos expedita placeat praesentium! In nesciunt odit corrupti debitis quae reiciendis.</p>
-			</ul>
-			</div>
+		<div class="container">
+			<div class="about_wrapper">
+				<div class="about_photo">
+					<img src="img/graduation.png" alt="photo collegeCPCC" width="450" height="600">
+				</div>
+				<div class="about_descr">
+					<h2 class="title title_fz26 about_title">About me</h2>
+					<div class="title title_fz36">Olga Sviridenko </div>
+					<div class="divider about_divider"></div>
+					<p class="about_text"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				</div>
+				<div class="about_skills">
+					<div class="about_skills-item">
+						<div class="about_skills-circle" >
+							<img src="img/icons/about_me/web_development.svg" alt="web-dev">
+						</div>
+						<div>
+							<div class="title title_fz26">Back-End Developer</div>
+							<div class="about_skills-text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+							</div>
+						</div>
+					</div>
+					<div class="about_skills-item">
+						<div class="about_skills-circle">
+							<img src="img/icons/about_me/aducation.svg" alt="web-dev">
+						</div>
+						<div>
+							<div class="title title_fz26">My Aducation</div>
+							<div class="about_skills-text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+							</div>
+						</div>
+					</div>
+					<div class="about_skills-item">
+						<div class="about_skills-circle">
+							<img src="img/icons/about_me/design.svg" alt="web-dev">
+						</div>
+						<div>
+							<div class="title title_fz26">Front-End Developer</div>
+						<div class="about_skills-text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+						</div>
+						</div>	
+					</div>
+					<div class="about_skills-item">
+						<div class="about_skills-circle">
+							<img src="img/icons/about_me/developer.svg" alt="web-dev">
+						</div>
+						<div>
+							<div class="title title_fz26">Engineering</div>
+							<div class="about_skills-text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+							</div>
+						</div>
+					</div>
+			</div>			
+		</div>
 	</section>
 	<!-- Section My Experience (add photo skills icons)-->
 	<section id="skills" class="skills">
 		<div class="container">
-			<h2>Experience</h2>
+			<h2 class="title title_fz26 about_title">Experience</h2>
 			<ul>
 				<li>HTML</li>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nam distinctio quo doloremque, officiis autem deserunt fugiat, consequatur dolores dignissimos expedita placeat praesentium! In nesciunt odit corrupti debitis quae reiciendis.</p>
@@ -68,7 +122,7 @@
 	<!-- add Section my projects here-->
 	<!-- Social links-->
 	<section id="connection">
-		<h2>Connect</h2>
+		<h2 class="title title_fz26 about_title">Connect</h2>
 		<div class="menu_social">
 			<a href="https://github.com/vsviryd7" target="_blank"><svg class="menu_social-svg" width="30" height="30" viewBox="0 0 20 19" xmlns="http://www.w3.org/2000/svg">
 				<path d="M10 0C4.475 0 0 4.36167 0 9.74107C0 14.0457 2.865 17.6962 6.8375 18.9832C7.3375 19.0749 7.52083 18.7734 7.52083 18.5148C7.52083 18.2835 7.5125 17.6706 7.50833 16.8585C4.72667 17.4459 4.14 15.5517 4.14 15.5517C3.685 14.4274 3.0275 14.1267 3.0275 14.1267C2.12167 13.5228 3.0975 13.5352 3.0975 13.5352C4.10167 13.603 4.62917 14.5389 4.62917 14.5389C5.52083 16.0283 6.97 15.5979 7.54167 15.3493C7.63167 14.719 7.88917 14.2903 8.175 14.0466C5.95417 13.8029 3.62 12.9652 3.62 9.23304C3.62 8.16988 4.0075 7.30085 4.64917 6.61934C4.53667 6.37317 4.19917 5.3827 4.73667 4.04116C4.73667 4.04116 5.57417 3.78012 7.48667 5.03988C8.28667 4.82345 9.13667 4.71606 9.98667 4.7111C10.8367 4.71606 11.6867 4.82345 12.4867 5.03988C14.3867 3.78012 15.2242 4.04116 15.2242 4.04116C15.7617 5.3827 15.4242 6.37317 15.3242 6.61934C15.9617 7.30085 16.3492 8.16988 16.3492 9.23304C16.3492 12.9752 14.0117 13.7987 11.7867 14.0383C12.1367 14.3307 12.4617 14.928 12.4617 15.8408C12.4617 17.1444 12.4492 18.1918 12.4492 18.5082C12.4492 18.7635 12.6242 19.0683 13.1367 18.9708C17.1375 17.692 20 14.0391 20 9.74107C20 4.36167 15.5225 0 10 0Z"/>
