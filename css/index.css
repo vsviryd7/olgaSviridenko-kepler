@@ -252,6 +252,147 @@ body{
 	font-family: 'Roboto', sans-serif;
  }
 
+ #leave-message {
+	background-color: #e0f7f9;
+	padding: 60px 0;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+ }
+ 
+ #leave-message h2 {
+	font-size: 32px;
+	color: #096164;
+	margin-bottom: 30px;
+ }
+ 
+ #leave-message form {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	padding: 30px;
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(9, 97, 100, 0.1);
+	text-align: left;
+ }
+ 
+ #leave-message label {
+	font-weight: 600;
+	display: block;
+	margin-bottom: 8px;
+	color: #096164;
+ }
+ 
+ #leave-message input,
+ #leave-message textarea {
+	width: 100%;
+	padding: 10px 12px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 14px;
+	font-family: inherit;
+ }
+ 
+ #leave-message textarea {
+	resize: vertical;
+	min-height: 120px;
+ }
+ 
+ #leave-message button[type="submit"] {
+	background-color: #e97139; /* New button color (orange) */
+	color: #fff;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 6px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+ }
+ #leave-message button[type="submit"]:hover {
+	background-color: #c85c25; /* Darker orange on hover */
+ }
+
+ /*Section messages */
+ #messages {
+	background-color: #f0f8f8;
+	padding: 20px;
+	margin: 30px auto;
+	max-width: 600px;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+	font-family: 'Poppins', sans-serif;
+	color: #052923;
+ }
+ 
+ #messages h2 {
+	font-size: 24px;
+	margin-bottom: 15px;
+	color: #0fa0a5;
+	text-align: center;
+ }
+ 
+ #messages ul {
+	list-style-type: none;
+	padding: 0;
+ }
+ 
+ #messages ul li {
+	background-color: #ffffff;
+	border: 1px solid #a8e7e2;
+	border-radius: 6px;
+	padding: 12px 15px;
+	margin-bottom: 12px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	position: relative;
+	word-wrap: break-word;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+ }
+ 
+ #messages ul li a {
+	font-weight: bold;
+	color: #096164;
+	text-decoration: none;
+ }
+ 
+ #messages ul li span {
+	display: block;
+	font-size: 0.9rem;
+	color: #333;
+ }
+ 
+ /* Buttons container to align buttons horizontally */
+ #messages ul li button {
+	padding: 6px 12px;
+	font-size: 0.85rem;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	transition: background-color 0.3s ease;
+	width: 80px;
+ }
+ 
+ /* Remove button style */
+ #messages ul li button:nth-of-type(1) {
+	background-color: #16b991; 
+	color: white;
+ }
+ 
+ #messages ul li button:nth-of-type(1):hover {
+	background-color: #1fa197;
+ }
+ 
+ /* Edit button style */
+ #messages ul li button:nth-of-type(2) {
+	background-color: #c54a41; 
+ }
+ 
+ #messages ul li button:nth-of-type(2):hover {
+	background-color: #aa0939;
+ }
+
  @media (min-width: 1439px) {
 	body {
 		font-size: 20px; /* Increase the font size */
@@ -469,3 +610,5 @@ body{
 	  scale: 1;
 	}
  }	
+
+ 
