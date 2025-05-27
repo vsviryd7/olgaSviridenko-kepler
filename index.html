@@ -17,7 +17,14 @@
 <body>
 	<!-- PAGE ABOUT navigate bar-->
 	<header id="header">
-		<nav id="navbar">
+		<nav id="navbar" class="menu">
+			<!-- Hamburger toggle -->
+			<input type="checkbox" id="menu-toggle" class="menu-toggle" />
+			<label for="menu-toggle" class="menu-icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
 			<!-- <li class="menu_link"><a href="#resume">My experience</a></li> -->
 			<ul class="menu_list">
 				<li class="menu_link"><a href="#about">About</a></li>
@@ -113,7 +120,7 @@
 	<section id="project">
 		<div class="container">
 			<h2 class="title title_fz26 about_title">Projects</h2>
-				<ul></ul>
+				<ul id="repo-list" class="repo-gallery"></ul>
 		</div>
 	</section>
 	<!-- add Section my projects here-->

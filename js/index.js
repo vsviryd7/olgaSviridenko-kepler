@@ -47,6 +47,7 @@ removeButton.addEventListener('click', function () {
 	messageSection.style.display = 'none';
 	}
 });
+
 //Edit Button
 const editButton = document.createElement('button');
   editButton.innerText = 'edit';
@@ -66,3 +67,61 @@ newMessage.appendChild(removeButton);
 messageList.appendChild(newMessage);
 messageForm.reset(); // Clear form
 });
+
+//GitHub repository list
+const username = "vsviryd7";
+// Array of img/project folder
+const projectImages = [
+  "1python.png",
+  "4APIcatDog.png",
+  "3hotel.png",
+  "5siteOlga.png",
+  "2pixels.png",
+  "6software.png"
+];
+
+const projectSection = document.getElementById("project");
+const projectList = projectSection.querySelector("#repo-list");
+
+fetch(`https://api.github.com/users/${username}/repos`)
+  .then(resp => resp.json())
+  .then(repositories => {
+    projectList.innerHTML = ""; // Clear list
+
+    repositories.forEach((repo, index) => {
+      const project = document.createElement("li");
+      project.classList.add("repo-item");
+
+      const link = document.createElement("a");
+      link.href = repo.html_url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+
+      const image = document.createElement("img");
+      // Use image from projectImages by index, fallback if index exceeds length
+      image.src = projectImages[index] 
+        ? `img/projects/${projectImages[index]}` 
+        : "img/projects/default.png";
+      image.alt = repo.name + " screenshot";
+      image.classList.add("repo-image");
+
+      image.onerror = () => {
+        image.src = "img/projects/default.png";
+      };
+
+      link.appendChild(image);
+      // Add caption under image with repo name
+      const caption = document.createElement("p");
+      caption.classList.add("repo-caption");
+      caption.innerText = repo.name;
+
+      project.appendChild(link);
+      project.appendChild(caption);
+      projectList.appendChild(project);
+    });
+  })
+  .catch(error => {
+    console.error("Error fetching repositories:", error);
+    projectList.textContent = "Sorry, we couldn’t load your projects. Please try again later.";
+  });
+  
