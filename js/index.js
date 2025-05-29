@@ -75,10 +75,10 @@ const projectImages = [
   "1python.png",
   "4APIcatDog.png",
   "3hotel.png",
+  "7ctdphoto.png",
   "5siteOlga.png",
   "2pixels.png",
-  "6software.png",
-  "7ctdphoto.png"
+  "6software.png"
 ];
 
 const projectSection = document.getElementById("project");
