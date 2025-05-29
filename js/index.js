@@ -77,7 +77,8 @@ const projectImages = [
   "3hotel.png",
   "5siteOlga.png",
   "2pixels.png",
-  "6software.png"
+  "6software.png",
+  "7ctdphoto.png"
 ];
 
 const projectSection = document.getElementById("project");
