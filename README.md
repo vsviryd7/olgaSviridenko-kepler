@@ -5,4 +5,4 @@ here: [olga-sviridenko-kepler.vercel.app](https://olga-sviridenko-kepler.vercel.
 
 This site is deployed using Vercel, a platform for frontend developers that enables easy deployment of static websites and applications.
 ![Image](https://github.com/user-attachments/assets/7d8d8c91-a208-42b6-9d8a-8fb6d830ef8f)
-![Image](https://github.com/user-attachments/assets/19cec693-c8e0-400e-ac94-a8ac88cb06af)
+
