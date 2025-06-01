@@ -1,5 +1,5 @@
 # olgaSviridenko-kepler
-Olga Sviridenko Site porfolio for Code the Dream Bootcamp
+Olga Sviridenko Site porfolio for Code the Dream Bootcamp.
 You can view the live rersion of this project 
 here: olga-sviridenko-kepler.vercel.app
 
