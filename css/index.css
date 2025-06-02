@@ -23,7 +23,20 @@ body{
 	font-style: 14px;
 	font-family: "Poppins", sans-serif;
 	padding-top: 60px;
+	color: #063b3f;
 }
+.about_text{
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 1.5rem;
+	font-size: 20px;
+	line-height: 1.6;
+ }
+.about_skills-text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #063b3f;
+ }
 
 .container {
 	max-width: 1160px;
@@ -43,8 +56,8 @@ body{
 
  .about_wrapper {
 	display: grid;
-	grid-template-columns: 400px 570px;
-	grid-template-rows: minmax(245px, auto) minmax(255px, auto);
+	grid-template-columns: 700px 770px;
+	grid-template-rows: minmax(400px, auto) minmax(400px, auto);
 	grid-auto-rows: minmax(245px, auto);
 	column-gap: 70px;
 	row-gap: 40px;
@@ -104,6 +117,20 @@ body{
   color: #8decea;
   transition: color 0.3s ease; 
 }
+.about_skills {
+	display: grid;
+	grid-template: repeat(2, minmax(320px, 1fr))/repeat(2, 260px);
+	grid-auto-rows: 1fr;
+	column-gap: 50px;
+	row-gap: 20px;
+ }
+ .about_skills-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+	
+	width: 100%;
+ }
  .container {
 	max-width: 1160px;
 	margin: 0 auto;
@@ -114,18 +141,7 @@ body{
 	height: 100%;
 	object-fit: cover;
  }
- .about_skills {
-	display: grid;
-	grid-template: repeat(2, minmax(115px, auto))/repeat(2, 260px);
-	grid-auto-rows: 1fr;
-	column-gap: 50px;
-	row-gap: 20px;
- }
- .about_skills-item {
-	display: grid;
-	grid-template-columns: 40px 200px;
-	column-gap: 20px;
- }
+ 
  .about_skills-circle {
 	position: relative;
 	padding: 15px 0 0 15px;
@@ -260,9 +276,9 @@ body{
 	column-gap: 35px;
  }
 
- .site-footer {
+.site-footer {
 	background-color: #096164;
-	color: #fff;
+	color: #81cfdf;
 	text-align: center;
 	padding: 20px 0;
 	margin-top: 40px;
@@ -457,14 +473,13 @@ body{
 	box-shadow: 0 4px 12px #096164;
  }
  .repo-gallery {
-	display: grid;
+  display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
   list-style: none;
   padding: 0;
-  margin: 0 auto;
-  max-width: 100%;
- }
+  margin: 2rem 0;
+}
  
  .repo-item {
 	width: 180px;
