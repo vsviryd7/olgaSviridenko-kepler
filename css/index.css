@@ -117,7 +117,18 @@ body{
   color: #8decea;
   transition: color 0.3s ease; 
 }
-.about_skills {
+ .container {
+	max-width: 1160px;
+	margin: 0 auto;
+	padding: 0 10px;
+ }
+ .about_photo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+ }
+ 
+ .about_skills {
 	display: grid;
 	grid-template: repeat(2, minmax(320px, 1fr))/repeat(2, 260px);
 	grid-auto-rows: 1fr;
@@ -131,17 +142,6 @@ body{
 	
 	width: 100%;
  }
- .container {
-	max-width: 1160px;
-	margin: 0 auto;
-	padding: 0 10px;
- }
- .about_photo img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
- }
- 
  .about_skills-circle {
 	position: relative;
 	padding: 15px 0 0 15px;
