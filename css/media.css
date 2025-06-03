@@ -75,14 +75,14 @@
 	  max-width: 767.98px;
 	}
 	.promo {
-		background: url("../img/main-bg.jpg") no-repeat 100%/cover ;
+		background: url("../img/main-bg.jpg") no-repeat 75%/cover ;
 		min-height: 20vh; /* Updated from 90vh to 100vh */
 	   height: auto;      /* Optional: Let height grow if content exceeds min-height */
 	   padding: 205px 10px 0 10px;
 	   display: flex;
 	 }
 	.title_fz36,.menu_list{
-		color: #e97139;
+		color: #0b5b57;
 		font-size: 30px;
 	}
 
@@ -307,14 +307,8 @@
   .menu-icon {
     display: none;
   }
-  .promo {
-		background: url("../img/main-bg.jpg") no-repeat 75%/cover ;
-		min-height: 20vh; /* Updated from 90vh to 100vh */
-	   height: auto;      /* Optional: Let height grow if content exceeds min-height */
-	   padding: 205px 10px 0 10px;
-	   display: flex;
-	 }
+  
 	.title_fz36,.menu_list{
-		color: #e97139;
+		color: #083d3b;
 	}
 }
